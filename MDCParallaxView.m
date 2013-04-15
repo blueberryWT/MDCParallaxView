@@ -224,4 +224,10 @@ static CGFloat const kMDCParallaxViewDefaultHeight = 150.0f;
     }
 }
 
+- (void)updateContent {
+    [self updateForegroundFrame];
+    [self updateBackgroundFrame];
+    [self updateContentOffset];
+}
+
 @end

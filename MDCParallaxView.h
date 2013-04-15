@@ -41,5 +41,5 @@
 /// @return An initialized view object or nil if the object couldn't be created.
 - (id)initWithBackgroundView:(UIView *)backgroundView
               foregroundView:(UIView *)foregroundView;
-
+-(void) updateContent;
 @end
